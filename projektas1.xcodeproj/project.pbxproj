@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EA5E70EC239597DA007120DB /* viewControllerRecipes.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5E70EB239597DA007120DB /* viewControllerRecipes.swift */; };
+		EA5E70EE2395A0FF007120DB /* RecipeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5E70ED2395A0FF007120DB /* RecipeTableViewCell.swift */; };
 		EA781DC0238D98B300AEA324 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA781DBF238D98B300AEA324 /* AppDelegate.swift */; };
 		EA781DC2238D98B300AEA324 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA781DC1238D98B300AEA324 /* SceneDelegate.swift */; };
 		EA781DC4238D98B300AEA324 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA781DC3238D98B300AEA324 /* ViewController.swift */; };
@@ -14,6 +16,7 @@
 		EA781DC9238D98B900AEA324 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA781DC8238D98B900AEA324 /* Assets.xcassets */; };
 		EA781DCC238D98B900AEA324 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA781DCA238D98B900AEA324 /* LaunchScreen.storyboard */; };
 		EA781DD7238D98B900AEA324 /* projektas1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA781DD6238D98B900AEA324 /* projektas1Tests.swift */; };
+		EA781DE22390512800AEA324 /* ViewControllerClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA781DE12390512700AEA324 /* ViewControllerClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +30,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EA5E70EB239597DA007120DB /* viewControllerRecipes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = viewControllerRecipes.swift; sourceTree = "<group>"; };
+		EA5E70ED2395A0FF007120DB /* RecipeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeTableViewCell.swift; sourceTree = "<group>"; };
 		EA781DBC238D98B300AEA324 /* projektas1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = projektas1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA781DBF238D98B300AEA324 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EA781DC1238D98B300AEA324 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -38,6 +43,7 @@
 		EA781DD2238D98B900AEA324 /* projektas1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = projektas1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA781DD6238D98B900AEA324 /* projektas1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = projektas1Tests.swift; sourceTree = "<group>"; };
 		EA781DD8238D98B900AEA324 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA781DE12390512700AEA324 /* ViewControllerClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerClass.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,7 +88,10 @@
 				EA781DBF238D98B300AEA324 /* AppDelegate.swift */,
 				EA781DC1238D98B300AEA324 /* SceneDelegate.swift */,
 				EA781DC3238D98B300AEA324 /* ViewController.swift */,
+				EA781DE12390512700AEA324 /* ViewControllerClass.swift */,
 				EA781DC5238D98B300AEA324 /* Main.storyboard */,
+				EA5E70EB239597DA007120DB /* viewControllerRecipes.swift */,
+				EA5E70ED2395A0FF007120DB /* RecipeTableViewCell.swift */,
 				EA781DC8238D98B900AEA324 /* Assets.xcassets */,
 				EA781DCA238D98B900AEA324 /* LaunchScreen.storyboard */,
 				EA781DCD238D98B900AEA324 /* Info.plist */,
@@ -202,7 +211,10 @@
 			files = (
 				EA781DC4238D98B300AEA324 /* ViewController.swift in Sources */,
 				EA781DC0238D98B300AEA324 /* AppDelegate.swift in Sources */,
+				EA5E70EC239597DA007120DB /* viewControllerRecipes.swift in Sources */,
+				EA5E70EE2395A0FF007120DB /* RecipeTableViewCell.swift in Sources */,
 				EA781DC2238D98B300AEA324 /* SceneDelegate.swift in Sources */,
+				EA781DE22390512800AEA324 /* ViewControllerClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
